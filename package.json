@@ -1,0 +1,26 @@
+{
+  "name": "estruturas-de-dados-e-algoritmos-galego",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest",
+    "test:watch": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zMatheus22/Estruturas-de-Dados-e-Algoritmos-Galego.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zMatheus22/Estruturas-de-Dados-e-Algoritmos-Galego/issues"
+  },
+  "homepage": "https://github.com/zMatheus22/Estruturas-de-Dados-e-Algoritmos-Galego#readme",
+  "devDependencies": {
+    "cross-env": "^10.1.0",
+    "jest": "^30.4.2"
+  }
+}
