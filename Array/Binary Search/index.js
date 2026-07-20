@@ -9,7 +9,6 @@ export function Binary_Search(arr, target) {
 
     // Verifica se o elemento no meio é o alvo
     if (arr[mid] == target) {
-      console.log("step: " + steps);
       return mid;
     }
     // Se o elemento no meio for menor que o alvo, ajusta o ponteiro inferior
